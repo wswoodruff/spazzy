@@ -21,7 +21,6 @@ LogGenerator.start = (options) => {
 
     options.script = options.script || [];
     options.file = options.file || `${__dirname}/../test/test-access.log`;
-    options.writeMax = options.writeMax || Infinity;
 
     let testDataLine;
     let logsWrittenLine;
