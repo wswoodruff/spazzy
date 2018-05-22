@@ -3,12 +3,12 @@
 const Path = require('path');
 const LogGenerator = require('../utils/log-generator');
 
-const chillScript = [
-    { amount: 1000, duration: 120000 },
-    { amount: 1000, duration: 120000 },
-    { amount: 1000, duration: 120000 },
-    { amount: 1000, duration: 120000 }
-];
+// const chillScript = [
+//     { amount: 1000, duration: 120000 },
+//     { amount: 1000, duration: 120000 },
+//     { amount: 1000, duration: 120000 },
+//     { amount: 1000, duration: 120000 }
+// ];
 
 const spazzyScript = [
     { amount: 160, duration: 15000 },
