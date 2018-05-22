@@ -1,7 +1,7 @@
 # Spazzy
 
 #### Http high traffic clf log monitor
-Spazzy monitors an access-log file being written to by other processes, and prints to the console during times of high traffic and recovery.
+Spazzy monitors an access-log file being written to by other processes, and prints to the console during times of high traffic, and recovery.
 
 ## Usage
 
