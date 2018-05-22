@@ -1,0 +1,37 @@
+{
+  "name": "spazzy",
+  "version": "1.0.0",
+  "description": "Http high traffic clf log monitor",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "lab -a code -t 80 --timeout 13000 -L",
+    "lint": "lab -L",
+    "gen": "node scripts/start-log-generator",
+    "dev": "node scripts/start-spazzy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wswoodruff/spazzy"
+  },
+  "keywords": [
+    "file",
+    "monitor"
+  ],
+  "author": "William woodruff <williamswoodruff@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wswoodruff/spazzy/issues"
+  },
+  "homepage": "https://github.com/wswoodruff/spazzy#readme",
+  "dependencies": {
+    "clf-parser": "git+https://github.com/jfhbrook/node-clf-parser.git",
+    "slice-file": "^1.0.0",
+    "strftime": "^0.10.0"
+  },
+  "devDependencies": {
+    "code": "^5.2.0",
+    "draftlog": "^1.0.12",
+    "items": "^2.1.1",
+    "lab": "^15.4.5"
+  }
+}
