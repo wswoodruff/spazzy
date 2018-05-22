@@ -4,7 +4,7 @@
   "description": "Http high traffic clf log monitor",
   "main": "lib/index.js",
   "scripts": {
-    "test": "lab -a code -t 80 --timeout 13000 -L",
+    "test": "lab -a code --timeout 13000 -L",
     "lint": "lab -L",
     "gen": "node scripts/start-log-generator",
     "dev": "node scripts/start-spazzy"
